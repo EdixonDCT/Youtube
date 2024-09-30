@@ -5,24 +5,52 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Youtube</title>
   <link rel="stylesheet" href="style.css"/>
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet" />
 </head>
+
 <body>
-  <section class="youtube">
-    <div class="item">
-      <p>Logo</p>
+  <!--Header -->
+  <header class="header">
+    <!--Contenedor Logo-->
+    <div class="logo-container">
+      <a href="#">
+        <i class="ri-menu-line"></i>
+      </a>
+    <div class="logo">
+      <div class="logo-img">
+        <img src="img/logo.png" alt="logo">
+      </div>
+      <h1>Youtube</h1>
+      </div>  
     </div>
-    <div class="item">
-      <p>Buscador</p>
-    </div>
-    <div class="item">
-      <p>Barra de opciones</p>
-    </div>
-    <div class="item">
-      <p>Categorias</p>
-    </div>
-    <div class="item">
-      <p>Videos</p>
-    </div>
-  </section>
+      <!--Contenedor Busquedad-->
+      <div class="search-container">
+       <form action="">
+        <input type="text" placeholder="Buscar...">
+         <button>
+           <i class="ri-search-line"></i>
+         </button>
+        </form>
+        <button>
+          <i class="ri-mic-fill"></i>
+        </button>
+      </div>
+      <!--Contenedor Perfil-->
+      <div class="profile-container">
+        <a href="#">
+          <i class="ri-live-fill"></i>
+        </a>
+        <a href="#">
+          <i class="ri-notification-fill"></i>
+        </a>
+        <div>
+          <img src="img/Edixon.jpg" alt="Perfil">
+        </div>
+      </div>
+  </header>
+  <!--Sidebar-->
+  <aside class="sidebar"></aside>
+  <!--Main-->
+  <main class="content"></main>
 </body>
 </html>
