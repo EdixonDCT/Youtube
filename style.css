@@ -152,8 +152,18 @@ hr {
   grid-area: sidebar;
   background-color: #121212;
   padding-top: 10px;
+  overflow-y: scroll;
 }
-
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-thumb {
+  background: transparent;
+  border-radius: 5px;
+}
+.sidebar::-webkit-scrollbar-thumb {
+  background-color: #717171;
+}
 .sidebar_items {
   display: flex;
   flex-direction: column;
