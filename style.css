@@ -320,3 +320,30 @@ hr {
     height: 25px;
   }
 }
+@media (max-width: 750px) and (max-height: 1500px) {
+  body {
+    grid-template-columns: 70px;
+    height: 1500px;
+  }
+  .sidebar_item span,
+  .sidebar_subtitulo {
+    display: none;
+  }
+  .sidebar_items {
+    padding: 0;
+  }
+  .profile-container {
+    margin-left: 10px;
+  }
+  .chips-wapper {
+    max-width: calc(100vw - 40px);
+  }
+  .sidebar {
+    overflow-x: hidden;
+  }
+  .video-container {
+    height: 100vh;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-auto-rows: 25%;
+  }
+}
