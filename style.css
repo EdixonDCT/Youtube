@@ -286,3 +286,37 @@ hr {
 .ri-circle-fill {
   font-size: 6px;
 }
+
+@media (max-width: 1200px) {
+  body {
+    grid-template-columns: 70px;
+    height: 1200px;
+  }
+  .sidebar_item span,
+  .sidebar_subtitulo {
+    display: none;
+  }
+  .sidebar_items {
+    padding: 0;
+  }
+  .profile-container {
+    margin-left: 10px;
+  }
+  .chips-wapper {
+    max-width: calc(100vw - 40px);
+  }
+  .sidebar {
+    overflow-x: hidden;
+  }
+  .video-container {
+    height: auto;
+  }
+  .video-container-cover {
+    height: 85px;
+  }
+}
+@media (max-width: 700px) {
+  .video-container-cover {
+    height: 25px;
+  }
+}
